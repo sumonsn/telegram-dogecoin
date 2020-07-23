@@ -13,12 +13,17 @@
   "website": "https://github.com/sumonsn/",
   "repository": "https://github.com/sumonsn",
   "env": {
-    "TOKEN": {
+    "TELEGRAM_BOT_TOKEN": {
       "description": "Enter your bot token ",
       "value": ""
     },
-    "API-KEY": {
-      "description": "Enter your bot token here.",
+    "BLOCKIO_PIN": {
+      "description": "Enter your blockio pin",
+      "value": ""
+    },
+    
+    "BLOCKIO-API_KEY": {
+      "description": "Enter your blockio api key",
       "value": ""
     }
  },
