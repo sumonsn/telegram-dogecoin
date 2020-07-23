@@ -1,0 +1,38 @@
+{
+  "name": "DogecoinTipBot",
+  "description": "let's make a dogecoin tipbot with using block.io api",
+  "keywords": [
+    "telegram",
+    "Bot",
+    "TipBot",
+    "bot",
+    "Telegram",
+    "pythonbot"
+  ],
+  "success_url": "https://telegram.dog/infinitetalk",
+  "website": "https://github.com/sumonsn/",
+  "repository": "https://github.com/sumonsn",
+  "env": {
+    "TOKEN": {
+      "description": "Enter your bot token ",
+      "value": ""
+    },
+    "API-KEY": {
+      "description": "Enter your bot token here.",
+      "value": ""
+    }
+ },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
